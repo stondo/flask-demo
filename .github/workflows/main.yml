@@ -42,6 +42,7 @@ jobs:
       - name: Trigger CI
         uses: InformaticsMatters/trigger-ci-action@1.0.1
         with:
+          ci-owner: stondo
           ci-repository: flask-demo-kcl-manifests
           ci-ref: refs/heads/main
           ci-user: stondo
