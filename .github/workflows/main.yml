@@ -42,10 +42,10 @@ jobs:
       - name: Trigger CI
         uses: InformaticsMatters/trigger-ci-action@1.0.1
         with:
-          ci-owner: kcl-lang
+          ci-owner: stondo
           ci-repository: flask-demo-kcl-manifests
           ci-ref: refs/heads/main
-          ci-user: peefy
+          ci-user: stondo
           ci-user-token: ${{ secrets.DEPLOY_ACCESS_TOKEN }}
           ci-name: CI
           ci-inputs: >-
